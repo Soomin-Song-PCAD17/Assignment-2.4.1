@@ -9,7 +9,8 @@
 /// Sum of all elements stored in the array is : 15
 
 Console.Write("Input the number of elements to be stored in the array : ");
-double[] array = new double[Convert.ToInt32(Console.ReadLine())];
+int arraySize = Convert.ToInt32(Console.ReadLine());
+double[] array = new double[arraySize];
 double sum = 0;
 for(int i=0;i<array.Length;i++) {
     Console.Write($"element - {i} : ");
